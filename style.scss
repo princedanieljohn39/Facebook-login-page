@@ -1,0 +1,101 @@
+body{
+    margin-top: 60px;
+    background-color: black;
+    h3{
+        font-family: poppins;
+        width: 250px;
+        margin-left: 430px;
+        color: white;
+    }
+    p{
+        font-family: poppins;
+        width: 250px;
+        margin-left: 425px;
+        color: white;
+    }
+    p a{
+        text-decoration: none;
+        color: rgb(0, 119, 255);
+    }
+    input[type=text] {
+        font-family: poppins;
+        width: 270px;
+        padding: 12px 20px;
+        margin-left: 415px;
+        box-sizing: border-box;
+        border: none;
+        background-color: #535353;
+        color: white;
+        border-radius: 10px;
+        cursor: auto;
+      }
+    .p2{
+        background-color: rgb(0, 119, 255);
+        width: 161px;
+        border-radius: 10px;
+        padding-left: 110px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-left: 415px;
+    }
+    .p3{
+        width: 170px;
+        border-radius: 10px;
+        padding-left: 87px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        color: rgb(0, 119, 255);
+
+    }
+    @media only screen and (max-width:600px)
+    {
+        margin-top: 150px;
+        background-color: black;
+        h3{
+            font-family: poppins;
+            width: 250px;
+            margin-left: 32px;
+            color: white;
+        }
+        p{
+            width: 250px;
+            margin-left: 30px;
+            text-decoration: none;
+            color: white;
+        }
+        p a{
+            text-decoration: none;
+            color: rgb(0, 119, 255);
+        }
+        input[type=text] {
+            font-family: poppins;
+            width: 260px;
+            padding: 12px 20px;
+            margin-left: 25px;
+            box-sizing: border-box;
+            border: none;
+            background-color: #535353;
+            color: white;
+            border-radius: 10px;
+            cursor: auto;
+          }
+          .p2{
+            background-color: rgb(0, 119, 255);
+            width: 150px;
+            border-radius: 10px;
+            padding-left: 110px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            margin-left: 25px;
+        }
+        .p3{
+            width: 170px;
+            border-radius: 10px;
+            padding-left: 93px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            color: rgb(0, 119, 255);
+    
+        }
+    }
+}
